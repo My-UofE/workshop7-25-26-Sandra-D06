@@ -11,6 +11,25 @@ public class TestCylinder2 {
        double v = cy2.getVolume();
 
        System.out.printf("Height: %.2f, Radius: %.2f, Area: %.2f, Volume: %.2f\n", h, r, a, v);
+       
+       // Instance method tests
+       System.out.println("Circle c3: ");
+       Circle c3 = new Circle();
+       c3.printClassInfo();
+       
+       System.out.println("Cylinder cy4: ");
+       Cylinder cy4 = new Cylinder();
+       cy4.printClassInfo();
+       
+       System.out.println("Circle cy5: ");
+       Circle cy5 = new Cylinder();
+       cy5.printClassInfo();
+       
+       // Static method tests
+       System.out.println("Static method: ");
+       cy4.printClassInfoStatic();
+       cy5.printClassInfoStatic();
 
     }
+
 }

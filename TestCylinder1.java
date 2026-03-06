@@ -14,5 +14,9 @@ public class TestCylinder1 {
 
         // add extra code below 
 
+        double surfaceArea = cy1.getArea();
+        double baseArea = cy1.getBaseArea();
+        System.out.println("Surface Area: " + surfaceArea);
+        System.out.println("Base Areea: " + baseArea);
     }
 }   
